@@ -1,0 +1,23 @@
+{
+  "name": "firefox-headless-memory",
+  "version": "0.1.0",
+  "description": "firefox headless memory issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dickeylth/firefox-headless-memory.git"
+  },
+  "author": "dickeylth <dickeylth@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dickeylth/firefox-headless-memory/issues"
+  },
+  "homepage": "https://github.com/dickeylth/firefox-headless-memory#readme",
+  "dependencies": {
+    "pidusage": "^3.0.0",
+    "puppeteer": "^11.0.0"
+  }
+}
