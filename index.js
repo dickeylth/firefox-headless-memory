@@ -6,8 +6,8 @@ const pidusage = require('pidusage');
   try {
     console.info(`downloadFirefox: startDownload...`);
     const browserFetcher = puppeteer.createBrowserFetcher({
-    host: 'https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central',
-    product: 'firefox',
+      host: 'https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central',
+      product: 'firefox',
     });
     const revisionInfo = await browserFetcher.download('96.0a1');
     console.info(`downloadFirefox: ${JSON.stringify(revisionInfo)}`);
